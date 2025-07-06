@@ -1,68 +1,60 @@
-# AICTE Internship Projects – June 2025 (Trainer Repository)
+💧Water Quality Prediction – RMS
+This project focuses on predicting multiple water quality parameters using machine learning, specifically a MultiOutputRegressor with a RandomForestRegressor. It was developed as part of the AICTE Virtual Internship – June 2025, sponsored by Shell in partnership with Edunet Foundation under the Skills4Future initiative.
 
-This repository contains the projects & code for the **AICTE Internship Program Cycle 1** held from **June 16 to July 16, 2025** sponsored from Shell with Edunet Foundation - Skills4Future.
+📘 Project Description
+Access to clean and safe water is a fundamental global need. This project addresses the challenge of monitoring water quality by building a predictive model capable of estimating several key chemical indicators from water quality datasets.
 
-## Internship Overview
+Key Highlights:
 
-- **Program:** AICTE Virtual Internship – June 2025
-- **Duration:** 1 Month (June 16 – July 16, 2025)
-- **Trainer:** Raghunandan M S (Skills4Future)
-- **Focus Area:** Environmental Analytics & Machine Learning (**Green Skills**)
-- **Projects:**  
-  1. Carbon Emissions Prediction  
-  2. Greenhouse Gas Emissions Prediction  
-  3. Water Quality Predictions
+Preprocessed real-world water quality datasets
 
----
+Implemented multi-target regression using scikit-learn
 
-## Repository Structure
+Built a pipeline using MultiOutputRegressor(RandomForestRegressor())
 
-Each project is organized into its own folder, containing weekly submissions, & datasets.
+Evaluated performance using standard regression metrics
 
-### 1. **Carbon Emissions Prediction**
-- **Goal:** Predict carbon emissions from country specific data.
-- **Contents:**
-  - Weekly submissions (Week 1 to Week 3)
-  - Datasets and preprocessing scripts
-  - Model training notebooks and results
+🧪 Tools & Technologies
+Python 3.12
 
-### 2. **Greenhouse Gas Emissions Prediction**
-- **Goal:** Forecast GHG emission trends using predictive modeling techniques.
-- **Contents:**
-  - Weekly progress submissions
-  - Dataset exploration and visualization
-  - Machine learning models and evaluation reports
+Pandas, NumPy – Data wrangling
 
-### 3. **Water Quality Predictions**
-- **Goal:** Use MultiOutput models to determine water potability and quality indicators.
-- **Contents:**
-  - Step-by-step weekly work
-  - Water quality datasets
-  - Model Deployment
+Scikit-learn – Modeling and evaluation
 
----
+Matplotlib, Seaborn – Visualization
 
-## Trainer Notes
+Jupyter Notebook – Development and experimentation
 
-Each folder represents the progress made on a weekly basis, culminating in a final submission. The internship emphasized hands-on experience with:
+🔬 Predicted Water Quality Parameters
+The model predicts the following water quality indicators:
 
-- Data cleaning and transformation
-- Predictive modeling (regression)
-- Evaluation and interpretation of results
-- Reporting and presentation in a virtual environment
+NH₄ – Ammonium
 
----
+BSK5 – Biochemical Oxygen Demand (BOD5)
 
-## Datasets
+Colloids
 
-All datasets used are included within their respective project folders.
+O₂ – Dissolved Oxygen
 
----
+NO₃, NO₂ – Nitrate & Nitrite
 
-## Skills Developed by Interns
+SO₄ – Sulfate
 
-- Machine Learning (Regression)
-- Time Series Forecasting
-- Exploratory Data Analysis (EDA)
-- Model Evaluation (RMSE, Accuracy, Confusion Matrix)
-- Python (Pandas, Scikit-learn, Matplotlib, etc.)
+PO₄ – Phosphate
+
+CL – Chloride
+
+📊 Model Evaluation
+The model's performance was assessed using:
+
+R² Score – Measures the proportion of variance explained by the model
+
+Mean Squared Error (MSE) – Measures average prediction error
+
+Model-https://drive.google.com/file/d/1oz2u_TbuVtT1AnVCUfjH-kyCLzkUsVyZ/view?usp=drive_link
+
+Internship Details
+Internship Type: AICTE Virtual Internship - Edunet Foundation
+Sponsor: Shell
+Duration: June 2025 (1 month)
+Focus Area: Machine Learning in Environmental Monitoring
